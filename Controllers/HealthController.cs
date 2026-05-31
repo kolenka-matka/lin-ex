@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Controllers;
 
-// Контроллер №3 — проверка сервиса (Health Check)
 [ApiController]
 [Route("[controller]")]
 public class HealthController : ControllerBase
