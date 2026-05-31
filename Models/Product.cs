@@ -1,6 +1,5 @@
 namespace MyApp.Models;
 
-// Сущность №1
 public class Product
 {
     public int Id { get; set; }
