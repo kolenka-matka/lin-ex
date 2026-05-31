@@ -3,7 +3,6 @@ using MyApp.Models;
 
 namespace MyApp.Controllers;
 
-// Контроллер №2 (для модели Category)
 [ApiController]
 [Route("api/[controller]")]
 public class CategoriesController : ControllerBase
