@@ -7,7 +7,6 @@ namespace MyApp.Controllers;
 [Route("api/[controller]")]
 public class ProductsController : ControllerBase
 {
-    // Данные хранятся в памяти, без БД (по заданию БД не нужна)
     private static readonly List<Product> _products = new()
     {
         new Product { Id = 1, Name = "Keyboard", Price = 1500, CategoryId = 1 },
